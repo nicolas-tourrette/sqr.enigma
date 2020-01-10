@@ -19,15 +19,18 @@ Hereafter, for each classes give function to be tested
 #### Functions to be tested
 - `convert()` (already tested in the `MachineTest.java` file)
 - `convertChar()`
-- `advanceRotors()`
 
 ### Classe Reflector
 #### Function to be tested
-- `reflectorFactory()`
+- `reflectorFactory()` (complicated)
+- `convertForward()` (already tested in the `RotorTest.java` file)
 
 ### Classe Rotor
-#### Function to be tested
-- `rotorFactory()`
+#### Functions to be tested
+- `rotorFactory()` (complicated)
+- `advance()`
+- `convertForward()`
+- `convertBackward()`
 
 ## Tricks & tips
 

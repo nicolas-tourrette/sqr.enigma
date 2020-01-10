@@ -32,4 +32,12 @@ public class MachineTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void TestConvertChar(){
+        Machine m = new Machine();
+        Main.configure(m, config);
+        String expected = "H";
+        String actual = m.convert("F");
+        assertEquals(expected, actual);
+    }
 }

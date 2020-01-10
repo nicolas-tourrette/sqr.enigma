@@ -26,7 +26,7 @@ public class Rotor {
         char[] s = str.trim().replace(" ", "").toCharArray();
         int[] cipher = new int[26];
         for (int i = 0; i< 26; i++){
-                cipher[i] = toIndex(s[i]);
+            cipher[i] = toIndex(s[i]);
         }
         s = notches.trim().replace(" and ", "").toCharArray();
         if (s.length == 2){
