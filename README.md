@@ -16,13 +16,18 @@ Code for the German Enigma machine used in WW2.
 Hereafter, for each classes give function to be tested 
 
 ### Classe Machine
-#### functions
+#### Functions to be tested
+- `convert()` (already tested in the `MachineTest.java` file)
+- `convertChar()`
+- `advanceRotors()`
 
 ### Classe Reflector
-#### function
+#### Function to be tested
+- `reflectorFactory()`
 
 ### Classe Rotor
-#### function
+#### Function to be tested
+- `rotorFactory()`
 
 ## Tricks & tips
 

@@ -84,13 +84,13 @@ public class Machine {
             advanceRight = true;
         }
         if (advanceLeft) {
-                leftRotor.advance();
+            leftRotor.advance();
         }
         if (advanceRight) {
-                rightRotor.advance();
+            rightRotor.advance();
         }
         if (advanceMiddle) {
-                middleRotor.advance();
+            middleRotor.advance();
         }
     }
 }

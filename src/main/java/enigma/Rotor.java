@@ -85,8 +85,8 @@ public class Rotor {
     }
     
     private void createBCipher() {
-            for(int i =0; i<26; i++)
-                    bcipher[cipher[i]] = i;
+        for(int i =0; i<26; i++)
+            bcipher[cipher[i]] = i;
     }
 
 }
