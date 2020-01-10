@@ -4,7 +4,7 @@ Code for the German Enigma machine used in WW2.
 ## Questions
 - Fork this github repository
 - Run the project
-- Comment the 2 classes
+- Comment the 3 classes
 - Complete the next section : functions to be tested
 - Commit your changes (commit README.md)
 - Make tests (call your test functions using the rule: GIVEN_WHEN_THEN) 
